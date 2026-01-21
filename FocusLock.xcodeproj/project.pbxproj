@@ -16,6 +16,7 @@
 		60E06A6A262F6936FDCB9FA8 /* FocusMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6922874A327BD51AFE22E23 /* FocusMonitor.swift */; };
 		7EE109E73191FF20891E8C65 /* FocusEventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76FC7FD2CA139F16D083B7E /* FocusEventTests.swift */; };
 		893E249C4D70CA0D2A8319D8 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75AD7CDE30E901B1773173C /* SettingsStore.swift */; };
+		A4C521F5FBC4FC598BB42AFC /* BlockedAppsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE18B9F87419C2A0E8D56A6 /* BlockedAppsView.swift */; };
 		C200C91C63D67038BA6D64FA /* LogWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E3D806F49C0186B4D0128F /* LogWindowView.swift */; };
 		CE01705C866EDE95AF543342 /* FocusLockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8DF530A1A02FBD59B610CA /* FocusLockTests.swift */; };
 /* End PBXBuildFile section */
@@ -38,6 +39,7 @@
 		61E3D806F49C0186B4D0128F /* LogWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogWindowView.swift; sourceTree = "<group>"; };
 		7D8733F08A39382B6AE9EE5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		92225BD262C1762AD004F175 /* FocusLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DE18B9F87419C2A0E8D56A6 /* BlockedAppsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockedAppsView.swift; sourceTree = "<group>"; };
 		A1329FE2E391AD3BD16D273F /* FocusMonitorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusMonitorTests.swift; sourceTree = "<group>"; };
 		A76FC7FD2CA139F16D083B7E /* FocusEventTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusEventTests.swift; sourceTree = "<group>"; };
 		B65DEF5BC51A751AF7105802 /* FocusEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusEvent.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 		7406D1AB49DEA9A2F8AF3F12 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9DE18B9F87419C2A0E8D56A6 /* BlockedAppsView.swift */,
 				61E3D806F49C0186B4D0128F /* LogWindowView.swift */,
 			);
 			path = Views;
@@ -199,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E4C1BD188A3D5EF8E3ACF46 /* BlockedApp.swift in Sources */,
+				A4C521F5FBC4FC598BB42AFC /* BlockedAppsView.swift in Sources */,
 				2E5525A1D1206C59DB8EFD49 /* FocusEvent.swift in Sources */,
 				51C90FF7CE7688AC2427AA52 /* FocusLockApp.swift in Sources */,
 				60E06A6A262F6936FDCB9FA8 /* FocusMonitor.swift in Sources */,
