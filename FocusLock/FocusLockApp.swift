@@ -8,7 +8,7 @@ struct FocusLockApp: App {
     @Environment(\.openWindow) private var openWindow
 
     var body: some Scene {
-        MenuBarExtra("FocusLock", systemImage: "lock.fill") {
+        MenuBarExtra("FocusLock", image: "MenuBarIcon") {
             MenuContent(
                 settings: appDelegate.settings,
                 notificationManager: appDelegate.notificationManager,

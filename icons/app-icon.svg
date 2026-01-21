@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3a3a3c"/>
+      <stop offset="100%" style="stop-color:#1c1c1e"/>
+    </linearGradient>
+    <linearGradient id="shackleGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#48484a"/>
+      <stop offset="100%" style="stop-color:#2c2c2e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background (rounded square for macOS app icon) -->
+  <rect x="0" y="0" width="1024" height="1024" rx="228" ry="228" fill="#f5f5f7"/>
+
+  <!-- Padlock shackle -->
+  <path d="M512 180
+           C380 180 272 288 272 420
+           L272 460
+           L352 460
+           L352 420
+           C352 332 424 260 512 260
+           C600 260 672 332 672 420
+           L672 460
+           L752 460
+           L752 420
+           C752 288 644 180 512 180
+           Z"
+        fill="url(#shackleGradient)"/>
+
+  <!-- Padlock body -->
+  <rect x="232" y="440" width="560" height="420" rx="60" ry="60" fill="url(#bodyGradient)"/>
+
+  <!-- Eye shape (keyhole replacement) - outer almond -->
+  <ellipse cx="512" cy="650" rx="140" ry="70" fill="#f5f5f7"/>
+
+  <!-- Eye iris -->
+  <circle cx="512" cy="650" r="50" fill="#007AFF"/>
+
+  <!-- Eye pupil -->
+  <circle cx="512" cy="650" r="22" fill="#1c1c1e"/>
+
+  <!-- Eye highlight -->
+  <circle cx="528" cy="638" r="10" fill="#ffffff" opacity="0.8"/>
+</svg>

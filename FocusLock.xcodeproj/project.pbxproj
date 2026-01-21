@@ -18,6 +18,7 @@
 		893E249C4D70CA0D2A8319D8 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75AD7CDE30E901B1773173C /* SettingsStore.swift */; };
 		A4C521F5FBC4FC598BB42AFC /* BlockedAppsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE18B9F87419C2A0E8D56A6 /* BlockedAppsView.swift */; };
 		C200C91C63D67038BA6D64FA /* LogWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E3D806F49C0186B4D0128F /* LogWindowView.swift */; };
+		C7A34D11DDAD991F4901A883 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA677BB4858D65F1B095B3C5 /* Assets.xcassets */; };
 		CE01705C866EDE95AF543342 /* FocusLockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8DF530A1A02FBD59B610CA /* FocusLockTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		D6922874A327BD51AFE22E23 /* FocusMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusMonitor.swift; sourceTree = "<group>"; };
 		DB8DF530A1A02FBD59B610CA /* FocusLockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusLockTests.swift; sourceTree = "<group>"; };
 		E4FA78745AB7241B902F9026 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		EA677BB4858D65F1B095B3C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -72,6 +74,7 @@
 		53D1D9CFAFC6DBBF3F2EBB83 /* FocusLock */ = {
 			isa = PBXGroup;
 			children = (
+				EA677BB4858D65F1B095B3C5 /* Assets.xcassets */,
 				23AC724978E6CF7DE73F0431 /* FocusLock.entitlements */,
 				2F709265FECD4A182E5ED43B /* FocusLockApp.swift */,
 				D6922874A327BD51AFE22E23 /* FocusMonitor.swift */,
@@ -121,6 +124,7 @@
 			buildConfigurationList = 344568AE97E40F4B35E512A3 /* Build configuration list for PBXNativeTarget "FocusLock" */;
 			buildPhases = (
 				757E9FBD9977116145065404 /* Sources */,
+				4FFFC11D3A3581B5D8D79DED /* Resources */,
 			);
 			buildRules = (
 			);
@@ -184,6 +188,17 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FFFC11D3A3581B5D8D79DED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A34D11DDAD991F4901A883 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		064BDB6BA01A85EC3CF37890 /* Sources */ = {
