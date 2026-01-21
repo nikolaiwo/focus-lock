@@ -10,6 +10,7 @@
 		164CFCFFFBB2BB1DEE747C5D /* SettingsStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0AB8AE80CFFF0B8D5641DE /* SettingsStoreTests.swift */; };
 		1E4C1BD188A3D5EF8E3ACF46 /* BlockedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D39231DCEDF0EFFBCEA10 /* BlockedApp.swift */; };
 		2E5525A1D1206C59DB8EFD49 /* FocusEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65DEF5BC51A751AF7105802 /* FocusEvent.swift */; };
+		34D982842EEC6C1D908F29B3 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FA78745AB7241B902F9026 /* NotificationManager.swift */; };
 		51C90FF7CE7688AC2427AA52 /* FocusLockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F709265FECD4A182E5ED43B /* FocusLockApp.swift */; };
 		53B98F155E02917AE94EB292 /* FocusMonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1329FE2E391AD3BD16D273F /* FocusMonitorTests.swift */; };
 		60E06A6A262F6936FDCB9FA8 /* FocusMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6922874A327BD51AFE22E23 /* FocusMonitor.swift */; };
@@ -42,6 +43,7 @@
 		CE1D39231DCEDF0EFFBCEA10 /* BlockedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockedApp.swift; sourceTree = "<group>"; };
 		D6922874A327BD51AFE22E23 /* FocusMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusMonitor.swift; sourceTree = "<group>"; };
 		DB8DF530A1A02FBD59B610CA /* FocusLockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusLockTests.swift; sourceTree = "<group>"; };
+		E4FA78745AB7241B902F9026 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -70,6 +72,7 @@
 				2F709265FECD4A182E5ED43B /* FocusLockApp.swift */,
 				D6922874A327BD51AFE22E23 /* FocusMonitor.swift */,
 				7D8733F08A39382B6AE9EE5D /* Info.plist */,
+				E4FA78745AB7241B902F9026 /* NotificationManager.swift */,
 				C75AD7CDE30E901B1773173C /* SettingsStore.swift */,
 				39AF113214F7C5AA30D41F0E /* Models */,
 			);
@@ -188,6 +191,7 @@
 				2E5525A1D1206C59DB8EFD49 /* FocusEvent.swift in Sources */,
 				51C90FF7CE7688AC2427AA52 /* FocusLockApp.swift in Sources */,
 				60E06A6A262F6936FDCB9FA8 /* FocusMonitor.swift in Sources */,
+				34D982842EEC6C1D908F29B3 /* NotificationManager.swift in Sources */,
 				893E249C4D70CA0D2A8319D8 /* SettingsStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
